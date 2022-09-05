@@ -1,0 +1,33 @@
+5-31-2022: Notes on CHARM VERSION 7.1 beta.
+
+           Some changes were made to support operation within the NASA RVLT
+           toolchain.  This includes adding some output variables required
+           in the .prt file and changing the logic for isolated rotor
+           propulsive trim (ICOLL=3, 5 and 6) to trim to CT = constant
+           for the rotor rather than lift (CTcos(shaft angle) = constant).
+
+           A few minor bugs were also fixed - including the fact that
+           p, q and r were previously applied about the aircraft frame
+           origin instead of about the aircraft c.g. (only an issue if
+           running with nonzero rotational rates) and a bug related to
+           large tilt angle and attitude changes when tilt or attitude
+           is used as a control option in full aircraft trim calculations.
+
+4-1-2022:  Notes on CHARM VERSION 7.0 beta.
+
+           New CHARM VERSION 7.0 beta software was placed in this folder
+           on 4-1-2022 with some bug fixes from the previous version.
+           The previous beta version had bugs when modeling a single wing 
+           as two half wings without using the new NRTOO option described
+           at the top of the Rotor/Wake Input File.
+
+           A slightly updated manual was also placed in this folder today
+           under the name CHARM VERSION 7.0a User's Manual.
+
+           The 4-1-2022 CHARM VERSION 7.0 beta software has passed the
+           full regression test with the exception of prop/wing
+           calculations and CHARM/PSU-WOPWOP calculations.  These tests
+           are ongoing as we transition to a new release of PSU-WOPWOP.
+
+DAW
+5-31-2022
