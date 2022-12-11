@@ -1,0 +1,277 @@
+********** PSU-WOPWOP Version 3.4.3 (PSU Internal Bui/bin/rm: cannot remove 'panel.inp': No such file or directory
+/bin/rm: cannot remove 'ls.inp': No such file or directory
+/bin/rm: cannot remove 'sim': No such file or directory
+/bin/rm: cannot remove 'mode_shapes.dat': No such file or directory
+/bin/rm: cannot remove 'Look*': No such file or directory
+/bin/rm: cannot remove 'shipwake.dat': No such file or directory
+
+          time parameters leads to a frequency bin width equal to the blade passage frequency,
+          nbHarmonics will not output the first nbHarmonics of blade passage frequency.
+ WARNING: Recording pressure or spectrum over grid.
+          This may be a VERY large file.
+ WARNING: NbHarmonics was specified and will override the use of
+          highPassFrequency and lowPassFrequency
+ Environment Created
+ Case Setup Time =   6.500000003143214E-003
+ Computing noise for Observers
+ Grid point:    1 of    25
+ At Location:    0.00000       -15.2400        0.00000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    2 of    25
+ At Location:    10.7763       -10.7763        0.00000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    3 of    25
+ At Location:    15.2400        0.00000        0.00000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    4 of    25
+ At Location:    10.7763        10.7763        0.00000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    5 of    25
+ At Location:    0.00000       -14.7207        3.94440    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    6 of    25
+ At Location:    10.4091       -10.4091        3.94440    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    7 of    25
+ At Location:    14.7207        0.00000        3.94440    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    8 of    25
+ At Location:    10.4091        10.4091        3.94440    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:    9 of    25
+ At Location:    0.00000       -13.1982        7.62000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   10 of    25
+ At Location:    9.33256       -9.33256        7.62000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   11 of    25
+ At Location:    13.1982        0.00000        7.62000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   12 of    25
+ At Location:    9.33256        9.33256        7.62000    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   13 of    25
+ At Location:    0.00000       -10.7763        10.7763    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   14 of    25
+ At Location:    7.62000       -7.62000        10.7763    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   15 of    25
+ At Location:    10.7763        0.00000        10.7763    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   16 of    25
+ At Location:    7.62000        7.62000        10.7763    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   17 of    25
+ At Location:    0.00000       -7.62000        13.1982    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   18 of    25
+ At Location:    5.38815       -5.38815        13.1982    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   19 of    25
+ At Location:    7.62000        0.00000        13.1982    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   20 of    25
+ At Location:    5.38815        5.38815        13.1982    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   21 of    25
+ At Location:    0.00000       -3.94440        14.7207    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   22 of    25
+ At Location:    2.78911       -2.78911        14.7207    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   23 of    25
+ At Location:    3.94440        0.00000        14.7207    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   24 of    25
+ At Location:    2.78911        2.78911        14.7207    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Grid point:   25 of    25
+ At Location:    0.00000        0.00000        15.2400    
+   Integrating Aircraft
+     Integrating Rotor 1
+       Integrating Loading Blade 1
+       Integrating Thickness Blade 1
+       Integrating Loading Blade 2
+       Integrating Thickness Blade 2
+       Integrating Loading Blade 3
+       Integrating Thickness Blade 3
+ Calculating results for Observers
+ WARNING: No weighting window was applied to the time
+          histories before calculating spectrum data.
+ Environment Destroyed.
+ Total Execution Time =    6.50079999999434     
+  
+ *** Processing of PSU-WOPWOP output data is beginning ***
+  
+  
+ *** Processing of PSU-WOPWOP output data complete ***
+  
