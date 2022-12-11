@@ -1,0 +1,33 @@
+hartIIbg: HART II Blade Geometry Input File
+NSEG
+ 8
+CUTOUT 
+ 0.44
+SL(ISEG)
+ .22  .14  .2  .2  .2  .2  .2  .2 
+CHORD(ISEG)
+ 9*.121
+ELOFSG(ISEG) - Elastic axis offset / chord - positive toward TE
+ 9*-.044
+SWEEPD(ISEG)
+ 8*0.0
+TWRD 
+ 4.2 
+TWISTGD(ISEG)
+ -.84 , -.56 , 6*-.8
+ANHD(ISEG)
+ 8*0.0
+THCKND(ISEG)
+ 8*0.12
+KFLAP(ISEG)
+ 8*0
+FLAPND(ISEG)
+ 8*0.0
+FLHNGE(ISEG)
+ 8*0.0
+FLDEFL(ISEG)
+ 8*0.0
+NCAM
+  0
+NCHORD    NSPAN    ICOS
+  1        64       -1

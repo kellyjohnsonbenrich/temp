@@ -1,0 +1,45 @@
+hartIIBL.inp: HART II Baseline BL case
+NROTOR   IMKS
+  1        1
+PATHNAME
+../
+INPUT FILENAMES 
+ hartIIBLrw.inp
+ hartIIbg.inp
+ hartIIBLbd.inp
+ hartIIair.inp
+ none
+SSPD      RHO
+341.7     1.2055
+SFRAME
+  0
+ADV     ALPHAS
+0.15      4.2
+NPSI    NREV    CONVG1    CONVG2   CONVG3  MREV
+ 24      10      -1.0      -1.0     -1.0    0
+IRST  IFREE  IGPR
+ 0      0     0
+IVOUT   NRS   (ROUT(I),I=1,NRS)
+  4     3    .75  .87  .97
+NPRINT   IBLPLT   (IFILPLT(I),I=1,4)
+  0        0       3  3  3  3
+IDEBUG (Debug flag)
+  0
+ISCAN (Scan plane flag)
+  1
+ISTRSS (Stress calculation flag)
+  0
+IFV   IQUIK1
+ 2      1
+IFVFW  IFVBL  IFVSU  IFVSC  IFVLS
+  1      1      1      1      1
+ISURF
+  0
+ISHIP
+  0
+IRECON   NOISE
+  1       -4
+NCHDRC  NPSIRC   IVROLL  CDRMIN
+  1       360       1     .01 
+NLS
+ 0
