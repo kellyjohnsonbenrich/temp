@@ -1,0 +1,38 @@
+bladebg.inp: CHARM Blade Geometry Input File made from blade.inp
+KBGEOM
+  0
+NSEG
+  5
+CUTOUT
+      0.000000      0.901860      0.000000
+SL(ISEG)
+      1.010083      1.010083      1.010083      1.010083      1.010083
+CHORD(ISEG)
+      3.607439      3.318844      3.030249      2.741654      2.453059
+      2.164463
+ELOFSG(ISEG) - (elastic axis offset)
+      0.000000      0.000000      0.000000      0.000000      0.000000
+      0.000000
+SWEEPD(ISEG)
+     26.835838     26.835838     26.835838     26.835838     26.835838
+TWRD (Blade root twist at zero collective in degrees)
+      0.000000
+TWSTGD(ISEG)
+      0.000000      0.000000      0.000000      0.000000      0.000000
+ANHD(ISEG)
+      0.000000      0.000000      0.000000      0.000000      0.000000
+THIKND(ISEG)
+      0.099918      0.099918      0.099918      0.099918      0.099918
+      0.099918
+KFLAP(ISEG)
+  5*0
+FLAPND(ISEG)
+  5*0.0
+FLHNGE(ISEG)
+  5*0.0
+FLDEFL(ISEG)
+  5*0.0
+NCAM
+ 0
+NCHORD  NSPAN  ICOS
+  1      20   -1
