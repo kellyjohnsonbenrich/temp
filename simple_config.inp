@@ -1,74 +1,26 @@
 prop.inp: Prop Run Char File
 NROTOR  IMKS
-    10   0
+   2      0 
 PATHNAME
 ../
-INPUT FILENAMES for HoverProps_000_000
-  HoverProps_000_000rw.inp
-  HoverProps_000bg.inp
-  HoverProps_000bd.inp
-  HoverProps_000af.inp
-  none
-INPUT FILENAMES for HoverProps_000_001
-  HoverProps_000_001rw.inp
-  HoverProps_000bg.inp
-  HoverProps_000bd.inp
-  HoverProps_000af.inp
-  none
-INPUT FILENAMES for HoverProps_001_000
-  HoverProps_001_000rw.inp
-  HoverProps_001bg.inp
-  HoverProps_001bd.inp
-  HoverProps_001af.inp
-  none
-INPUT FILENAMES for HoverProps_001_001
-  HoverProps_001_001rw.inp
-  HoverProps_001bg.inp
-  HoverProps_001bd.inp
-  HoverProps_001af.inp
-  none
-INPUT FILENAMES for CruiseProp_002_000
-  CruiseProp_002_000rw.inp
-  CruiseProp_002bg.inp
-  CruiseProp_002bd.inp
-  CruiseProp_002af.inp
-  none
-INPUT FILENAMES for WingGeom_000_000
-  WingGeom_000_000rw.inp
-  WingGeom_000_000bg.inp
-  WingGeom_000_000bd.inp
-  WingGeom_000_000af.inp
-  none
-INPUT FILENAMES for VertTail_001_000
-  VertTail_001_000rw.inp
-  VertTail_001_000bg.inp
-  VertTail_001_000bd.inp
-  VertTail_001_000af.inp
-  none
-INPUT FILENAMES for VertTail_001_001
-  VertTail_001_001rw.inp
-  VertTail_001_001bg.inp
-  VertTail_001_001bd.inp
-  VertTail_001_001af.inp
-  none
-INPUT FILENAMES for HTail_002_000
-  HTail_002_000rw.inp
-  HTail_002_000bg.inp
-  HTail_002_000bd.inp
-  HTail_002_000af.inp
-  none
-INPUT FILENAMES for HTail_002_001
-  HTail_002_001rw.inp
-  HTail_002_001bg.inp
-  HTail_002_001bd.inp
-  HTail_002_001af.inp
-  none
+INPUT FILENAMES for Forward Left rotor
+ rotorrw1.inp
+ rotorbg.inp
+ rotorbd.inp
+ 0012.inp
+ none
+INPUT FILENAMES for Forward Left rotor
+ rotorrw2.inp
+ rotorbg.inp
+ rotorbd.inp
+ 0012.inp
+ none
 SSPD       RHO
 1116.45    .002378
 INFLOW
   1
  U      V    W        P   Q   R
-146.6667   0.0000   0.0000   0.0000   0.0000   0.0000 
+ 220.00 0.0 0.0     0.0 0.0 0.0
 NPSI    NREV    CONVG1    CONVG2   CONVG3   MREV
  24     -1       -1.0      -1.0     -1.0     0 
 IRST  IFREE  IGPR
@@ -80,7 +32,7 @@ NPRINT   IBLPLT   (IFILPLT(I),I=1,4)
 IDEBUG (Debug flag)
   0
 ISCAN (Scan plane flag)
-  1 
+  0 
 ISTRSS (Stress calculation flag)
   0
 IFV    IQUIK1
@@ -92,6 +44,6 @@ ISURF
 ISHIP
   0
 IRECON   NOISE
-  0        -4
+  0        0
 NLS
  0
